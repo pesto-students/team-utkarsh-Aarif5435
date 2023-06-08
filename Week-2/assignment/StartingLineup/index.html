@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form>
+      <fieldset>
+        <legend>Status:</legend>
+        <input type="radio" name="status" id="draft" value="Darft" />
+        <label for="draft">Draft</label>
+        <input type="radio" name="status" id="final" value="Final" checked />
+        <label for="draft">Final</label>
+      </fieldset>
+      <label for="date">Date:</label>
+      <select name="date" id="date">
+        <option selected value="March 20">March 20</option>
+        <option value="March 24">March 24</option>
+        <option value="April 2">April 2</option>
+        <option value="April 6">April 6</option>
+        <option value="April 13">April 13</option>
+      </select>
+      <fieldset>
+        <legend>Players:</legend>
+        <p>
+          <input type="checkbox" id="Aarav" value="Aarav Agarwal" />
+          <label for="Aarav Agarwal">Aarav Agarwal</label>
+        </p>
+        <p>
+          <input type="checkbox" id="ava" value="Ava Johnson" />
+          <label for="Ava Johnson">Ava Johnson</label>
+        </p>
+        <p>
+          <input type="checkbox" id="Julio" value="Julio Ortiz" />
+          <label for="Julio Ortiz">Julio Ortiz</label>
+        </p>
+        <p>
+          <input type="checkbox" id="Liam" value="Liam Rubio" />
+          <label for="Liam Rubio">Liam Rubio</label>
+        </p>
+        <p>
+          <input type="checkbox" id="Emma" value="Emma Witherspoon" />
+          <label for="Emma Witherspoon">Emma Witherspoon</label>
+        </p>
+      </fieldset>
+      <input type="submit" value="Submit" />
+    </form>
+  </body>
+</html>
